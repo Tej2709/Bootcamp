@@ -1,0 +1,20 @@
+create database databasename
+
+
+Create table tablename 
+{
+	columnname datatype1,
+	columnname datatype2,
+	columnname datatype3,
+	columnname datatype4
+}
+
+select * from tablename
+
+ALTER TABLE table_name ADD(
+    column_name datatype);
+INSERT INTO table_name VALUES(data1, data2, ...)
+UPDATE student SET rollno=18 WHERE student_id=10;
+SELECT * FROM Emp ORDER BY salary;
+SELECT name, age 
+FROM Emp GROUP BY salary
